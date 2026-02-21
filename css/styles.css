@@ -128,7 +128,7 @@ a {
     background-position: center;
     padding: 72px 0;
     height: 432px;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -900,9 +900,14 @@ input::placeholder {
     /* tablet */
 
     .container {
-        max-width: 100%;
+        width: 100%;
+        max-width: 768px;
         margin: 0 auto;
         padding: 0 24px;
+    }
+
+    .main-page {
+        max-width: 768px;
     }
 
    .main-page .container {
@@ -1105,6 +1110,7 @@ input::placeholder {
     @media screen and (min-width: 1158px) {
     
             /* desktop */
+        
     .container {
             max-width: 1158px;
             padding: 0 15px;
@@ -1124,6 +1130,7 @@ input::placeholder {
     .main-page {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url("../images/hero_desk_1x.jpg");
+        max-width: 1440px;
     }
 
     .main-page {
@@ -1276,7 +1283,8 @@ input::placeholder {
                     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                     url("../images/hero_tab_2x.jpg");
             }
-        
+        }
+
         @media screen and (min-width: 1158px) and (min-resolution: 192dpi),
         screen and (min-width: 1158px) and (min-resolution: 2dppx) {
             .main-page {
