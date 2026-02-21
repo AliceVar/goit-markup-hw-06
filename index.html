@@ -27,12 +27,18 @@
             >Web<span class="logo">Studio</span></a
           >
 
+          <a href="#" class="menu-button" aria-label="Menu">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </a>
+
           <ul class="nav-list">
             <li>
               <a href="./index.html" class="nav-item active-link">Studio</a>
             </li>
-            <li><a href="" class="nav-item">Portfolio</a></li>
-            <li><a href="" class="nav-item">Contacts</a></li>
+            <li><a href="#" class="nav-item">Portfolio</a></li>
+            <li><a href="#" class="nav-item">Contacts</a></li>
           </ul>
         </nav>
         <address class="contacts">
@@ -61,7 +67,7 @@
       </section>
 
       <section class="features">
-        <div class="container">
+        <div class="container features-container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-content">
             <li class="features-item">
@@ -525,6 +531,77 @@
         </form>
       </div>
     </footer>
+
+    <!-- #region menu -->
+    <div class="pop-up-menu">
+      <div class="menu-container">
+        <button type="button" class="pop-up-menu-close-button">
+          <svg class="close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <ul class="menu-nav-list">
+          <li>
+            <a href="./index.html" class="menu-nav-item menu-active-link"
+              >Studio</a
+            >
+          </li>
+          <li><a href="#" class="menu-nav-item">Portfolio</a></li>
+          <li><a href="#" class="menu-nav-item">Contacts</a></li>
+        </ul>
+
+        <address class="menu-contacts">
+          <ul class="menu-contacts-list">
+            <li>
+              <a href="tel:+110001111111" class="menu-contacts-item menu-phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="menu-contacts-item"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div>
+          <ul class="menu-socials">
+            <li>
+              <a class="menu-socials-item" href="#" aria-label="Instagram">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-item" href="#" aria-label="twitter">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-item" href="#" aria-label="facebook">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-item" href="#" aria-label="linkedin">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- #endregion menu -->
 
     <!-- #region popup -->
     <div class="backdrop">
