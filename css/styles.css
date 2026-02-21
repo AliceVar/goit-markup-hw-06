@@ -447,7 +447,7 @@ input::placeholder {
 }
 
 .subscribe-email {
-    width: 264px;
+    min-width: 264px;
     height: 40px;
 
     border: 1px solid #FFFFFF;
