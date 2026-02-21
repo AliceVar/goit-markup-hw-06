@@ -6,6 +6,7 @@
       name="description"
       content="WebStudio - effective business solutions"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-mark-up-hw-01</title>
     <link
       rel="stylesheet"
@@ -23,15 +24,15 @@
     <header class="top-text">
       <div class="container top-container">
         <nav class="navigation">
-          <a href="./index.html" class="link" style="color: #4d5ae5"
+          <a href="./index.html" class="link"
             >Web<span class="logo">Studio</span></a
           >
 
-          <a href="#" class="menu-button" aria-label="Menu">
+          <button type="button" class="menu-button" aria-label="Menu">
             <svg class="menu-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
-          </a>
+          </button>
 
           <ul class="nav-list">
             <li>
@@ -127,7 +128,13 @@
           <h2 class="team-name">Our Team</h2>
           <ul class="team-content">
             <li class="team-list">
-              <img src="./images/img.jpg" alt="Mark" width="264" height="260" />
+              <img
+                src="./images/img.jpg"
+                srcset="./images/img.jpg 1x, ./images/img_2x.jpg 2x"
+                alt="Mark"
+                width="264"
+                height="260"
+              />
               <div class="team-items">
                 <h3 class="team-member">Mark Guerrero</h3>
                 <p class="team-desc">Product Designer</p>
@@ -170,6 +177,7 @@
             <li class="team-list">
               <img
                 src="./images/img_1.jpg"
+                srcset="./images/img_1.jpg 1x, ./images/img_1_2x.jpg 2x"
                 alt="Tom"
                 width="264"
                 height="260"
@@ -216,6 +224,7 @@
             <li class="team-list">
               <img
                 src="./images/img_2.jpg"
+                srcset="./images/img_2.jpg 1x, ./images/img_2_2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -262,6 +271,7 @@
             <li class="team-list">
               <img
                 src="./images/img_3.jpg"
+                srcset="./images/img_3.jpg 1x, ./images/img_3_2x.jpg 2x"
                 alt="Daniel"
                 width="264"
                 height="260"
@@ -319,6 +329,7 @@
               <div class="overlay-box">
                 <img
                   src="./images/banking.jpg"
+                  srcset="./images/banking.jpg 1x, ./images/banking_2x.jpg 2x"
                   alt="banking"
                   width="360"
                   height="300"
@@ -343,6 +354,7 @@
               <div class="overlay-box">
                 <img
                   src="./images/payment.jpg"
+                  srcset="./images/payment.jpg 1x, ./images/payment_2x.jpg 2x"
                   alt="payment"
                   width="360"
                   height="300"
@@ -367,6 +379,10 @@
               <div class="overlay-box">
                 <img
                   src="./images/meditation.jpg"
+                  srcset="
+                    ./images/meditation.jpg    1x,
+                    ./images/meditation_2x.jpg 2x
+                  "
                   alt="meditation"
                   width="360"
                   height="300"
@@ -391,6 +407,7 @@
               <div class="overlay-box">
                 <img
                   src="./images/taxi.jpg"
+                  srcset="./images/taxi.jpg 1x, ./images/taxi_2x.jpg 2x"
                   alt="taxi"
                   width="360"
                   height="300"
@@ -415,6 +432,7 @@
               <div class="overlay-box">
                 <img
                   src="./images/screen.jpg"
+                  srcset="./images/screen.jpg 1x, ./images/screen_2x.jpg 2x"
                   alt="screen"
                   width="360"
                   height="300"
@@ -439,6 +457,7 @@
               <div class="overlay-box">
                 <img
                   src="./images/courses.jpg"
+                  srcset="./images/courses.jpg 1x, ./images/courses_2x.jpg 2x"
                   alt="courses"
                   width="360"
                   height="300"
